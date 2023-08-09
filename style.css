@@ -1,0 +1,322 @@
+.logo{
+    width: 10vw;
+    margin-top: 0.8vw;
+    margin-left: 29.5vw;
+}
+header{
+    padding: 1.5vw;
+    background-color: black;
+    height: 4vw;
+    margin-top: 1vw;
+    display: flex;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+    background-color: rgb(255, 255, 255);
+}
+
+*{/*outline: 0.1px solid red;
+    outline-offset: -1px;*/
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.caixa{
+    margin-left: 30%;
+    margin-right: 30%;
+    border: solid black 0.15vw;
+    padding: 2.5vw;
+    background-image: url(imgs/background.png);
+    border-radius: 1vw;
+    text-align: center;
+    font-size: 1.2vw;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+}
+
+.gurizes{
+    margin-top: 4vw;
+    justify-content: space-around;
+    display: flex;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.fts{
+    border: solid black 0.1vw;
+    border-radius: 500vw;
+    width: 15vw;
+}
+
+.nomes{
+    justify-content: space-around;
+    display: flex;
+    margin-left: 30%;
+    margin-right: 30%;
+    flex-direction: row;
+    font-size: 1vw;
+    margin-bottom: 2vw;
+}
+
+.search-container {
+    background-color: #fff;
+    border-radius: 100000px;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    height: 1.3vw;
+    margin-top: 1vw;
+    width: 20vw;
+    margin-left: 19vw;
+  }
+
+  .search-icon {
+    margin-right: 0.6vw;
+  }
+
+  .search-input {
+    border: none;
+    outline: none;
+    font-size: 0.8vw;
+  }
+
+  .home{
+    width: 3.5vw;
+    margin-left: 10vw;
+  }
+
+  #footerDiv{
+    margin-left: 5vw;
+    font-size: 85%;
+    margin-top: 1vw;
+}
+
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 20px;  
+    box-shadow: 2px 0px 3px black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 3vw;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  ul li {
+    margin-left: 10px;
+  }
+  
+  ul li:first-child {
+    margin-left: 0;
+  }
+  
+  ul li a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+  a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+  }
+
+.karambitDiv{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2vw;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 2vw;
+}
+
+.karambitFoto{
+    width: 30%;
+    border-radius: 1vw;
+}
+
+.textoKarambit{
+    width: 30%;
+    text-align: center;
+    font-size: 1vw;
+    margin-top: 0.5vw;
+}
+
+.rocketDiv{
+    display: flex;
+    margin-top: 2vw ;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 37.5vw;
+    margin-top: -18.3vw;
+}
+
+.rocketFoto{
+    width: 60%;
+    border-radius: 2vw;
+}
+
+.textoRocket{
+    width: 60%;
+    text-align: center;
+    font-size: 1.5vw;
+    margin-top: 0.5vw;
+}
+
+.cavalheiroDiv{
+  margin-left: 3vw;
+  margin-top: -10vw;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.cavalheiroFoto{
+  width: 35%;
+}
+
+.textoCavalheiro{
+  width: 60%;
+  font-size: 1.4vw;
+  margin-top: 0.5vw;
+}
+
+.valorantDiv{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-top: 3vw;
+}
+
+.valorantFoto{
+  width: 80%;
+  border-radius: 2vw;
+  text-align: center;
+}
+
+.textoValorant{
+  font-size: 1.8vw;
+  margin-top: 0.5vw;
+}
+
+.bloonsDiv{
+  margin-left: 54vw;
+  margin-top: -25vw;
+  display: flex;
+  flex-direction: column;
+  width: 150%;
+}
+
+.bloonsFoto{
+  width: 30%;
+  border-radius: 2vw;
+  margin-left: -8vw;
+}
+
+.textoBloons{
+  width: 60%;
+  font-size: 1.4vw;
+  margin-top: 0.5vw;
+  margin-left: -3.5vw;
+}
+
+.imgLeitura{
+  width: 75%;
+  margin-top: 0.5vw;
+}
+
+.imgLeituraDiv{
+  text-align: center;
+  margin-bottom: 1vw;
+}
+
+.textoLeitura{
+  margin-right: 15%;
+  margin-left: 15%;
+  text-align: justify;
+  font-size: 1vw;
+}
+
+.search-container2 {
+  background-color: #fff;
+  border-radius: 100000px;
+  padding: 10px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  height: 2vw;
+  margin-top: 3vw;
+  width: 30vw;
+  margin-left: 15%;
+}
+
+.search-icon2 {
+  margin-right: 0.9vw;
+}
+
+.search-input2 {
+  border: none;
+  outline: none;
+  font-size: 1vw;
+}
+
+.comentarios{
+  margin-left: 16%;
+  margin-top: 1.5vw;
+}
+
+.perfilFoto{
+  width: 2%;
+  border-radius: 10000000vw;
+  margin-right: 0.5vw;
+  margin-bottom: -0.5vw;
+}
+
+.comentTexto{
+  margin-top: 0.6vw;
+}
+
+.cavalheiroFoto:hover {
+  transform: scale(1.015);
+  transition: transform 0.2s ease-in-out;
+}
+
+.karambitFoto:hover {
+  transform: scale(1.015);
+  transition: transform 0.2s ease-in-out;
+}
+
+.rocketFoto:hover {
+  transform: scale(1.015);
+  transition: transform 0.2s ease-in-out;
+}
+
+.valorantFoto:hover {
+  transform: scale(1.015);
+  transition: transform 0.2s ease-in-out;
+}
+
+.bloonsFoto:hover {
+  transform: scale(1.015);
+  transition: transform 0.2s ease-in-out;
+}
+
+.rocketFoto:hover {
+  transform: scale(1.015);
+  transition: transform 0.2s ease-in-out;
+}
